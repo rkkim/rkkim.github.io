@@ -1,0 +1,87 @@
+body{
+  background-color: #F0FFFD;
+}
+
+#intro-title{
+  font-family: Roboto Slab;
+  font-weight: 700;
+  margin-top: 2%;
+  margin-bottom: 0.7%;
+  font-size: 35px;
+}
+
+.sub-head {
+  font-family: Open Sans;
+  font-weight: 600;
+  margin-top: 0%;
+  font-size: 27px;
+}
+
+.left-align{
+  margin-left: 25%
+}
+.a-banner{
+  text-decoration: none;
+  color: #64AA82;
+}
+
+.description{
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 400;
+  margin-top: 5%;
+  margin-right: 25%;
+  margin-bottom: 20%;
+}
+
+#proj{
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: -2.5%;
+  margin-bottom: 10%;
+}
+
+.gray-border{
+  /* border-color: #e4e4e4;
+  border-width: 10px;
+  border-style: solid; */
+  border-radius: 2%;
+}
+.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    
+#section-title{
+  font-family: Roboto Slab;
+  font-weight: 700px;
+  font-size: 20px;
+  margin-bottom: -0.2%;
+}
+
+#proj-sub{
+  font-family: Open Sans;
+  color: #CDC9C9;
+  font-size: 14px;
+}
+
+.proj-title{
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+#contact-hr{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.contact-section{
+  text-decoration: none;
+  margin-left: 45%;
+  color: #FFFFFF;
+  font-size: 16px;
+}
