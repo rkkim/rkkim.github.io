@@ -1,2 +1,0 @@
-# rkkim.github.io
-website
