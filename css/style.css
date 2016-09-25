@@ -45,11 +45,11 @@ body{
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    margin-top: 2%;
+    margin-top: 25px;
     max-width: 600px;
     min-width: 300px;
 }
-    
+
 #section-title{
   font-family: Roboto Slab;
   font-weight: 700px;
@@ -168,6 +168,3 @@ animation-delay: 0.4s;
   color: #000066;
   text-decoration:none;
 }
-
-
-
