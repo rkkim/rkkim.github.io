@@ -1,10 +1,19 @@
 body{
-  background-color: #F0FFFD;
+  background-color: #fff;
+}
+
+.front-round{
+  margin-top: 1%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:8%;
+  height: auto;
 }
 
 #intro-title{
-  font-family: Roboto Slab;
-  font-weight: 700;
+  font-family: Oswald;
   margin-top: 2%;
   margin-bottom: 0.7%;
   font-size: 35px;
@@ -12,21 +21,22 @@ body{
 
 .sub-head {
   font-family: Open Sans;
-  font-weight: 600;
-  margin-top: 0%;
-  font-size: 27px;
+  font-weight: 400;
+  margin-top: 1%;
+  font-size: 18px;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: #bdbdbd;
+  line-height: 1.3;
 }
 
 .left-align{
   margin-left: 25%
 }
-.a-banner{
-  text-decoration: none;
-  color: #64AA82;
-}
+
 
 .description{
-  font-size: 18px;
+  font-size: 18;
   font-family: Open Sans;
   font-weight: 400;
   margin-top: 5%;
@@ -51,9 +61,9 @@ body{
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    margin-top: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 2%;
+    margin-left: 33%;
+    margin-right: 33%;
 }
     
 #section-title{
@@ -75,13 +85,115 @@ body{
 }
 
 #contact-hr{
+  text-align: center;
   margin-left: 30%;
   margin-right: 30%;
 }
 
-.contact-section{
-  text-decoration: none;
-  margin-left: 45%;
-  color: #FFFFFF;
-  font-size: 16px;
+.contact-links{
+  margin-left: 43.5%;
+  margin-right: 30%;
 }
+
+.icon-margin{
+  margin-top: 40px;
+  margin-right: 3%;
+  margin-left: 3%;
+  color: black;
+}
+
+/*=== Trigger  ===*/
+
+
+/*=== Optional Delays, change values here  ===*/
+.one {
+-webkit-animation-delay: 0.4s;
+-moz-animation-delay: 0.4s;
+animation-delay: 0.4s;
+}
+
+.animate {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*=== Animations start here  ===*/
+/*=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+/*=== FADE IN DOWN ===*/
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+.directoryContainer {
+  margin-top: 40px;
+  margin-left: 43.3%;
+}
+
+.directoryContainer a{
+  text-decoration:none;
+}
+
+.directory{
+  margin: 3%;
+  font-size: 20px;
+  color: #000066;
+  text-decoration:none;
+}
+
+
+
