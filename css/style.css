@@ -49,7 +49,7 @@ body{
     max-width: 600px;
     min-width: 300px;
 }
-    
+
 #section-title{
   font-family: Roboto Slab;
   font-weight: 700px;
@@ -185,7 +185,6 @@ animation-delay: 0.4s;
 }
 
 .AboutMe{
-  margin-top: 40px;
   max-width: 600px;
   margin:0 auto;
 }
