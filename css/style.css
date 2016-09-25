@@ -49,7 +49,7 @@ body{
     max-width: 600px;
     min-width: 300px;
 }
-
+    
 #section-title{
   font-family: Roboto Slab;
   font-weight: 700px;
@@ -167,4 +167,43 @@ animation-delay: 0.4s;
   font-size: 20px;
   color: #000066;
   text-decoration:none;
+}
+
+.directoryContainerTop {
+  text-align:right;
+}
+
+.directoryContainerTop a{
+  text-decoration:none;
+}
+
+.directoryTop{
+  margin: 10px;
+  font-size:15px;
+  color: #000066;
+  text-decoration:none;
+}
+
+.AboutMe{
+  margin-top: 40px;
+  max-width: 600px;
+  margin:0 auto;
+}
+
+.AboutMe p{
+  max-width: 575px;
+  margin:0 auto;
+  font-size: 18px;
+  color: #3f3f3f;
+  font-family: Open Sans;
+  line-height: 1.5;
+}
+
+.AboutMe li{
+  font-size: 18px;
+  max-width: 520px;
+  margin:0 auto;
+  color: #3f3f3f;
+  font-family: Open Sans;
+  line-height:1.5;
 }
