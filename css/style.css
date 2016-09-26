@@ -206,3 +206,22 @@ animation-delay: 0.4s;
   font-family: Open Sans;
   line-height:1.5;
 }
+
+.Projects {
+  margin-top: 40px;
+  max-width: 600px;
+  margin:0 auto;
+}
+
+.Projects li{
+  font-size: 18px;
+  max-width: 540px;
+  line-height: 1.5;
+  font-family: Open Sans;
+  color: #3f3f3f;
+  margin-top: 20px;
+}
+
+.Projects a{
+  text-decoration: none;
+}
